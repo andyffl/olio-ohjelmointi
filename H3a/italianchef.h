@@ -12,7 +12,7 @@ public:
     ~ItalianChef();
 
     void makePasta();
-    string getName() const;
+    string getName()  const;
 };
 
 #endif // ITALIANCHEF_H

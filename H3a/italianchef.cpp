@@ -1,11 +1,11 @@
 #include "italianchef.h"
 
-ItalianChef::ItalianChef(const string& name) : Chef(name) {
+ItalianChef::ItalianChef(const string &name) : Chef(name) {
     cout << "ItalianChef " << name << " konstruktori" << endl;
 }
 
 ItalianChef::~ItalianChef() {
-    cout << "ItalianChef " << name << " destruktori" << endl;
+    cout <<"ItalianChef " << name << " destruktori" << endl;
 }
 
 void ItalianChef::makePasta() {
